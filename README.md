@@ -2,11 +2,12 @@
 Coursera getting and cleaning data course project
 
 ##Prerequisites
-In order to use this program, check that dplyr packaged is installed and modify working directory according to preferred path on your own computer.
+In order to use this program, check that dplyr package is installed and modify working directory according to preferred path on your own computer.
 
 ##How it works
 Program runs through few key steps, summarized here below:
-*1. working directory is set, a 'data' subdirectory is created (if not already available) and project files downloaded to such directory and uncompressed;
+*Item1
+1. working directory is set, a 'data' subdirectory is created (if not already available) and project files downloaded to such directory and uncompressed;
 *2. activity, subject and variables data sets from both train and test groups are read in from file, they are concatenated by row and then binded by column in a unique data frame;
 *3. a subset of data frame created at previous step is retained, containing only columns related to mean() and std() computations, further to key columns about activity and subject;
 *4. activity descriptive textss are read in from file, joined to reference data frame above, original integer activity column substituted with a factor description column, always named 'activity'
