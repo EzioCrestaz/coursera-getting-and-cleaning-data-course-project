@@ -80,4 +80,4 @@ Variable names have been sligtly expanded in order to be more informative, based
 - BodyBody -> Body (it has been assumed to be an error in original variable name)
 
 ##Summary dataset
-
+A second tidy data set contains information described above grouped by activity and subject (6*30), providing mean value for each variable.
