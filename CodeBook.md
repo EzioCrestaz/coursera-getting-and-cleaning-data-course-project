@@ -67,9 +67,17 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 "
 
-Tidy set produced by current program keeps together information about:
-activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-subject (person within a 30 people group, participating in the experiment)
+Data set produced by current program is an extract of above variables, namely mean() and std(), plut related info:
+- activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+- subject (person within a 30 people group, participating in the experiment)
+
+Variable names have been sligtly expanded in order to be more informative, based on following rules:
+- t -> time
+- f -> frequency
+- Acc -> Accelerometer
+- Gyro -> Gyroscope
+- Mag -> Magnitude
+- BodyBody -> Body (it has been assumed to be an error in original variable name)
 
 ##Summary dataset
 
